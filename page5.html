@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النماذج والجداول </title>
+</head>
+<body>
+    <h1>نماذج والجداول</h1>
+    <h2>نموذج تسجيل </h2>
+    <form >
+        <div>
+          <label>الاسم:</label>
+          <input type="text" name="الاسم">
+        </div>
+         <div>
+          <label>البريد الاكتروني:</label>
+           <input type="email" name="البريد">
+         </div>
+         <div>
+            <label>الجنس</label><br>
+            <label for="j">ذكر</label>
+            <input type="radio" name="k" value="j">
+            <label for="l">انثى</label>
+            <input type="radio" name="k" value="l">
+         </div>
+         <div>
+            <label for="g">الدولة:</label>
+            <select name="الدولة" id="g">
+                <option value="1">اختر دولة</option>
+                <option value="2">السعوديه</option>
+                <option value="3">قطر</option>
+                <option value="4">الكويت</option>
+                <option value="5">البحرين</option>
+            </select>
+         </div>
+         
+            <label for="d">رسالة:</label>
+        <div>
+            <textarea name="رسالة" id="d" rows="5" cols="53"></textarea>
+        </div>
+        <div>
+            <button>ارسال </button>
+            <button>اعادة تعنين</button>
+        </div>
+    </form>
+    <h2>جدول بيانات</h2>
+    <table border="1" width="10">
+           <thead>
+            <tr>
+             <td>الاسم</td>
+             <td>لعمر</td>
+             <td>المدينة</td>
+             <td>التخصص</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>احمد</td>
+                <td>30</td>
+                <td>الرياض</td>
+                <td rowspan="2">برمجه</td>
+            </tr>
+            <tr>
+                <td>سعد </td>
+               <td>25</td>
+               <td>ابها</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html
